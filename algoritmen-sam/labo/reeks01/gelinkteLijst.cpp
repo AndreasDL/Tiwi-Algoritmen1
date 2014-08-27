@@ -1,0 +1,23 @@
+#include <iostream>
+#include "Lijst.cpp"
+#include "Lijstknoop.cpp"
+
+using namespace std;
+using namespace Lijsten;
+
+
+int main(){
+    Lijst<int> lijst;
+    for (int i = 0; i < 88; i++){
+        lijst.voeg_toe_vooraan(i);
+    }
+    cout << "Oorspronkelijke lijst" << endl;
+    lijst.schrijf_uit();    
+    cout << endl << "Gesorteerde lijst" << endl;
+    lijst.insertion_sort();
+    lijst.schrijf_uit();
+    
+    
+	
+    return 0;
+}

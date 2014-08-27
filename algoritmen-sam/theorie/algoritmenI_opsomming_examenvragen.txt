@@ -1,0 +1,239 @@
+Gepost op: 28 augustus 2008, 16:00:50 »
+
+    Bespreek de ondergrens voor sorteren voor het slechtste en het gemiddelde geval.
+    Bespreek open adressering: de verschillende functies,  performantie, hashsequenties
+    Bespreek BreedteEerstZoeken: performantie, classificatie van de sleutels en verbindingen, voornaamste toepassing
+	
+	Bespreek het algoritme van Shell. Geef ook de efficiëntie bij n elementen.
+    Implementatie van priorityqueue's, + performantie van de operaties.
+    Bespreek Prim + performantie.
+	
+Gepost op: 27 augustus 2008, 10:48:07 »
+
+    Implementeer Mergesort  Bottomup
+    Interface van Hash implementeren: constructor, voegToe, verwijder, zoek
+    Gegeven: Afstandenmatrix en gewichtmatrix, implementeer berekenVoorlopers (FloydWarshall)
+	
+Gepost op: 09 juni 2008, 14:49:06 »
+
+	Bespreek uitgebreid het algoritme van Shell. (shellsort dus)
+	Ook de performantie uitwerken en hij vroeg ook dat "bewijs" van waarom dat ksorteren werkt...
+	Bespreek prioriteitswachtrij + performantie (geen bewijzen)
+	Bespreek algoritme van Prim + performantie
+
+	bespreek operaties die te maken hebben met volgorde bij zoekbomen en threaded trees (+ geef performanties) met n elementen
+	bespreek performantie quicksort. Bewijs gemiddeld geval.
+	Hoe kortste afstand tot 1 punt berekenen met topologisch rangschikken (geef ook performantie) + projectbeheer uitleggen
+	
+	Bespreek selectieoperatie en geef performantie bij n elementen (geen bewijs).
+	Geef bewijs voor performantie van open adressering.
+	Bespreek FloydWarshall algoritme.
+
+	Wat is selection replacement en hoe wordt het geïmplementeerd
+	Geef de performantie van toevoegen aan een binaire boom
+	Wat is topologisch rangschikken en hoe kan het efficient gebeuren (en met welke efficiëntie)
+
+	selection replacement
+	hashfuncties
+	topologisch
+
+	selectie + eff zonder bewijs
+	zoeken in bomen
+	korste weg van een dag + projectplanning
+
+	radixsort: uitgebreid uitleggen + performantie
+	performantie open adressering
+	diepteeerst: uitleggen + classificatie verbindingen + waarvoor wordt het gebruikt + performantie
+
+	selectie sortering(ofzo) bespreek uitgebreid, voor n (zonder bewijs)
+	dijkstra uitleggen + performantie aantonen
+	hashfuncties
+
+	Selection Replacement
+	Bespreken van alle operaties ivm volgorde in een bin zoekboom
+	Dijkstra
+
+	Ondergrens voor sorteren: slechtste en gemiddelde geval; bewijs
+	Operaties ivm volgorde in binaire zoekbomen en threaded trees
+	Breedteeerst zoeken graaf (al dan niet gericht) uitleggen: performantie  waarvoor gebruiken  soorten verbindingen
+
+	Bespreek mergesort uitgebreid (geen bewijs performantie)
+	Zoeken in binaire zoekboom bewijs efficiëntie
+	Bespreek breedte eerst zoeken volledig
+
+	diepteeerst: uitleggen + classificatie verbindingen + waarvoor wordt het gebruikt + performantie
+	stabiliteit: wat + welke geziene methodes zijn stabiel en verklaar + hoe kun je ervoor zorgen da het toch stabiel is?
+		  (hier heb ik van insertion > radix, weet niet of er nog meer waren die je  moest zeggen, ie vroeg geen echt bijvragen dus veronderstel van nie)
+	bespreek de operaties voor open adressering (geen hashfuncties) + efficientie van deze operaties
+
+	waarom kan quicksort slecht uitdraaien in sommige gevallen. Bespreek de methoden hoe je dit kan vermijden + implementatie hiervan. Geef ook de performanties (zonder bewijs)
+	performantie van open adressering bewijs
+	leg uit dijkstra + geef performantie toon aan
+
+    Er zijn twee methodes om een heap te construeren van een al bestaande tabel. Bespreek de minstefficiënte en bereken de performantie.
+    Bespreek hashfuncties
+	
+	stabiele methodes gebruiken (bv. insertion sort) in de 'onderliggende code'
+	veranderingen aanbrengen aan de code zelf
+
+    kde element zoeken vr grote K + bewijs
+    Chaning bespreken bij hashfuncties + performanties zonder bewijs
+    Floydwarshall + performantie zonder bewijs
+	
+Gepost op: 13 februari 2007, 19:01:57 »
+
+	mergesort (zonder bewijs performantie)
+	priority queue
+	2 eigenschappen bij MST's
+
+	bespreek zoeken in een tabel met n elementen + performantie
+	bespreek performantie bucket sort
+	bespreek dijkstra + performantie
+
+	bespreek mergesort + performantie zonder bewijs
+	bespreek prioriteitswachtrij + de operaties hierop
+	geef de 2 eigenschappen van een minimaal overspannende boom + verklaar
+
+	bespreek shellsort (ook die fameuze eigenschap aantonen)  Idiot
+	performantie open adressering
+	diepte eerst zoeken / waarvoor gebruikt? / classificatie van verbindingen / ...
+
+	Bespreek stabiliteit, welke algoritmen zijn er stabiel, hoe maak je een willekeurig algoritme stabiel?
+	De selectieopdracht voor grote k, gemiddeld, bewijs
+	Brespreek Algoritme van Prim, performantie
+
+	hoe kun je heaps construeren, geef ook performantie (dus niet alleen formules, ook bewijs)
+	hoe kun je zoeken in een tabel, geef ook performantie
+	algoritme van prim, geef ook performantie
+
+	bespreek performantie van quiksort
+	bespreek alle operaties die te maken hebben met de volgorde in binaire bomen en threaded trees
+	bespreek inorder overlopen van grafen (met nog deelvragen over performantie, en nog 2 andere)
+
+	breedteeerst zoeken: efficiëntie, waarvoor gebruikt, classificatie verbindingen, verschillen gerichte  ongerichte grafen
+	bucket sort: performantie
+	hashtabellen: implementatie en operaties
+
+	bespreek radix + performantie
+	bewijs de performantie van zoeken in een zoekboom
+	topologisch rangschikken (wat en hoe)
+
+	bespreek de efficientie van insertion sort
+	algoritme van floydwarshall + efficientie
+	de operaties op hashtabellen bespreken, (separated chaining, coalesced chaining en open adressering)
+
+	Geef de performanties van quicksort + bewijs voor gemiddeld geval
+	Bespreek de hashfuncties uitvoerig
+	Wat is de topologische volgorde van een DAG, en bespreek de methoden om dit te implementeren + performantie
+
+	Bespreek stabiliteit, welke algoritmen zijn er stabiel, hoe maak je een willekeurig algoritme stabiel?
+
+	bespreek zoeken in een tabel met n elementen + performantie
+	bespreek performantie bucket sort
+	bespreek dijkstra + performantie
+
+	bespreek zoeken en verwijderen in binaire zoekbomen + de performantie met uitleg zonder bewijs, ook voor threaded threas da bespreken (was wel vreemd da laatste)
+	Gemiddeld geval van selection sort voor grote k (hij mocht gvd alles vrage buite da)
+	breedte eerst zoeken, classificatie, efficientie, waarvoor wordt da zo nogal gebruikt, ...
+
+	Geef de performanties van selectieoperatie, en bewijs voor het beste en slechtste geval.
+	Bespreek de hashfuncties uitvoerig
+	Wat is de topologische volgorde van een DAG, en bespreek de methoden om dit te implementeren + performantie
+
+	Bespreek performantie Bucketsort
+	Bespreek de implementatie van alle operaties op hashtabellen? Bespreek de performatie van deze operaties.
+	Algoritme van Prim + performatie
+
+	bespreek alle operaties die te maken hebben met de volgorde in binaire bomen en threaded trees
+	bespreek performantie van quicksort. Bewijs het gemiddelde geval
+	bespreek prim (hoe werkt het,performantie(zonder bewijs),implementatie)
+
+	Bespreek uitgebreid shellsort
+	Bespreek de implementatie van de operaties op hashtabellen en hun efficiëntie (zonder bewijs  geen hashfuncties)
+	Hoe kan men na topologisch rangschikken de kortste afstanden vanuit een bepaalde knoop bepalen? Bespreek projectplanning.
+
+	Bespreek uitgebreid het algoritme van Shell. (shellsort dus)
+	Ook de performantie uitwerken en hij vroeg ook dat "bewijs" van waarom dat ksorteren werkt...
+	Bespreek prioriteitswachtrij + performantie (geen bewijzen)
+	Bespreek algoritme van Prim + performantie
+
+	selection replacement
+	hashfuncties
+	topologisch
+
+Gepost op: 09 juni 2011, 11:27:20 »
+
+	Bespreek mergesort + performantie (geen bewijs)
+	Bespreek open addressing + bewijs
+	Toplogisch rangschikken + projectbeheer (geen bewijs)
+
+	Performantie quicksort + bewijs voor gemiddelde geval
+	Wat is replacement selection + hoe wordt dit geïmplementeerd
+	Wat is het algoritme van FloydWarshall (hele werking van de matrices enz) + performantie en uitleg
+
+	Leg uit: Prim + verklaar efficiëntie
+	Geef ondergrens van rangschikken
+	Hoe kan je zoeken in gerangschikte tabel + geef efficiëntie
+
+	Shell bespreken
+	Performantie open adressering
+	Topologisch rangschikken
+
+	Quicksort gemiddelde performantie + bewijs en uitleg
+	Open adressering bespreek de operaties op hashtabellen en hun performantie zonder bewijs. en hun implementatie. 
+	Dijkstra 
+
+Gepost op: 05 juni 2009, 11:41:53 »
+
+    Bespreek algoritme van de Shell + performantie
+    Bespreek breedteeerst zoeken, classificatie van de verbindingen, efficiëntie, en waarvoor gebuikt
+    Bespreek priorityqueue + efficiëntie 
+	
+	bucket sort performantie (pff)
+	alle operaties van alle soorten chained hashing uitleggen (coalesced en seperated dus) + performantie zonder bewijs
+
+	Ondergrens van sorteren
+	Operaties van open adressering uitleggen + efficiëntie (zonder bewijs)
+	Breedteeerst zoeken met alles erop en eraan (uitleg, implementatie, classificatie verbindingen, performantie)
+
+	Bespreek uitgebreid de methode van shell. Geef ook de performantie bij n elementen.
+	Wat zijn prioriteitswachtrijen, welke methodes kan je er op doen en bespreek ze, ook de performantie geven van elke methode.
+	Diepteeerstzoeken bespreken voor (on)gerichte grafen. Bespreek de classificatie van de verbindingen. Waar kan je deze methode voor gebruiken? 
+	Algoritme van prim uitleggen en efficiëntie bewijzen
+
+	Bespreek de performantie van quicksort voor een tabel met n elementen. Toon dit aan voor het gemiddelde geval. Geef niet enkel de formules maar leg ze ook uit.
+	Hoe kun je zoeken in een tabel met n elementen en wat is de performantie.
+	Toon de eigenschap aan van minimaal overspannen bomen waar veel graafalgoritmen een beroep op doen (kon ietwat anders geformuleerd zijn, deze vraag wist ik niet echt)
+
+Gepost op: 31 mei 2010, 10:13:21 »
+
+    Bespreek uitvoerig het Shellsort algoritme, en geef de performantie bij n elementen.
+    Bijvraag: geef het bewijs dat een kgesorteerde lijst na hgesorteerd te worden, nog steeds kgesorteerd is.
+    Geef de performantie (bewijs!) van een opzoeking in een binaire zoekboom. Leg hierbij alles uit, formules volstaan niet.
+	
+    bespreek de efficiëntie van randomized quicksort(geef niet enkel de formules maar verklaar ook)
+    bespreek de operaties bij chaining en geef hun performantie
+    bespreek het algoritme van prim en de performantie
+    Hoe wordt het kortste pad van een knoop in een DAG berekend? Wat is de performantie hiervan? Hoe wordt dit toegepast bij projectplanning?
+    Bijvraag: hoe wordt de langste weg in een DAG berekend?
+	
+    Wat is de performantie van bucketsort. Geef het bewijs.
+    Bespreek het verwijderen van sleutels bij zoekboom en ook bij threaded tree. Geef ook de performantie.
+	Bespreek Dijkstra. Verklaar de performantie.
+	
+	Ondergrens van sorteren (slechtste en gemiddelde geval)
+	Wat is replacement selection. Hoe wordt dit geïmplementeerd?
+	Wat is topologisch rangschikken? Bespreek hoe je dit efficiënt doet.
+		
+	Hoe kun je zorgen dat Quicksort altijd efficiënt is? Bewijs.
+	Toon hoe de operaties bij Open Adressering geïmplementeerd worden en geef hun efficiëntie zonder bewijs.
+	Bespreek gedetailleerd DiepteEerst zoeken bij grafen (gericht en ongericht). Geef de verschillende verbindingen. Bespreek efficiëntie en geef een toepassing.
+
+    Wat is de ondergrens voor het rangschikken van n gegeven in het slechtste en gemiddelde geval?
+    Geef formules en verklaar.
+    Bespreek dijsktra. Implementatie / Performantie
+    Bespreek Hashfuncties. Implementatie.
+	
+	bespreek shellsort grondig, geef performantie bij n elementen
+	bespreek replacement selection
+	leg algoritme van FloydWarshall uit, wat is de performantie

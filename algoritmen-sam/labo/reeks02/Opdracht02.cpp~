@@ -1,0 +1,59 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <cstdlib>
+#include "chrono.h"
+
+
+using namespace std;
+
+const int size = 10000;
+
+
+
+
+void insertion_sort(vector<int> &v){
+	for (unsigned int i = 0; i < v.size(); i++){
+		int h = v[i];
+		int j = i-1;
+		while ( j >= 0 && h < v[j]){
+			v[j+1] = v[j];
+			j--;
+		}
+		v[j+1] = h;
+	} 
+}
+
+
+int main(){
+	vector<int> v ;
+	srand(time(0));
+	for (int i = 0; i < size; i++){
+			v.push_back(rand());
+	}
+	
+	for (int a = 10; a <= 1000; a*=10){
+		vector<int> v1 (v);
+		vector<int> v2 (v);
+		
+		cout << "a : " << a << endl;
+		Chrono c1;
+		c1.start();
+		for (vector<int>::iterator it = v1.begin(); it+a != v1.end(); it ++){
+			sort(it, it+a);
+		}
+		insertion_sort(v1);
+		c1.stop();
+		cout << "in stukken delen : " << c1.tijd() << endl;
+	
+		Chrono c2;
+		c2.start();
+		insertion_sort(v2);
+		c2.stop();
+		cout << "gewone insertion sort : " << c2.tijd() << endl;
+	}
+	
+	cin.get();
+	return 0;
+	
+}

@@ -1,0 +1,8 @@
+7
+noot 5 6
+mies 2 4
+teun 7 0
+aap 0 0
+jet 0 0
+vuur 0 8
+zus 0 0
